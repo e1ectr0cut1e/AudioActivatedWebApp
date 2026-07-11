@@ -63,6 +63,10 @@ class StableWebViewClient(private val url: String) : WebViewClient() {
             "R12" -> R.raw.lets_encrypt_r12
             "R13" -> R.raw.lets_encrypt_r13
             "R14" -> R.raw.lets_encrypt_r14
+            "YE1" -> R.raw.lets_encrypt_ye1
+            "YE2" -> R.raw.lets_encrypt_ye2
+            "YR1" -> R.raw.lets_encrypt_yr1
+            "YR2" -> R.raw.lets_encrypt_yr2
             else -> null
         }
         if (issuerCert == null) {
